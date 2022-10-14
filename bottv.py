@@ -4,7 +4,7 @@ from twitchio.ext import commands
 TOKEN = "oauth:o8gapeamhl62m8h2p1mivx3bshn84k"
 class Bot(commands.Bot):
     def __init__(self):
-        super().__init__(token=TOKEN, prefix='!', initial_channels=['mathi'])
+        super().__init__(token=TOKEN, prefix='!', initial_channels=['lucassss14'])
     async def event_ready(self):
         print(f'Logged in as | {self.nick}')
     async def event_message(self, ctx):
