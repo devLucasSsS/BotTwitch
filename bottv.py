@@ -1,8 +1,7 @@
 import os
 from twitchio.ext import commands
-from dotenv import load_dotenv
-load_dotenv()
-TOKEN = os.getenv('bot_token')
+
+TOKEN = "oauth:o8gapeamhl62m8h2p1mivx3bshn84k"
 class Bot(commands.Bot):
     def __init__(self):
         super().__init__(token=TOKEN, prefix='!', initial_channels=['mathi'])
