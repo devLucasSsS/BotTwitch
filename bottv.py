@@ -14,7 +14,8 @@ class Bot(commands.Bot):
             await ctx.channel.send("DONATION INCENTIVES: $3 (or 1 sub) Guaranteed Map request | $5 (or 2 gift subs) Replay review | $7 (or 3 gift subs) Profile review or 1v1 | $10 (or 5 gift subs) Profile review + Replay review (you choose the replay) + 1v1 | $20 Profile review instantly")
         if(ctx.content.lower() == "!afk"):
             await ctx.channel.send("Mathi will be back in a few minutes.")
+        if(ctx.content.lower() == "!ping"):
+            await ctx.channel.send("pong.")
         await self.handle_commands(ctx)
-        os.system("cls")
 bot = Bot()
 bot.run()
