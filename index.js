@@ -21,6 +21,9 @@ client.on("message", (channel, tags, message, self) => {
   if (message.toLowerCase() === "!afk") {
     client.say(channel, `Mathi will be back in a few minutes.`);
   }
+  if (message.toLowerCase() === "!ping") {
+    client.say(channel, `pong`);
+  }
 
   if (message.toLowerCase() === "!subathon") {
     client.say(
