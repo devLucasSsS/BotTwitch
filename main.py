@@ -16,5 +16,5 @@ class Bot(commands.Bot):
         if(ctx.content.lower() == "!ping"):
             await ctx.channel.send("pong.")
         await self.handle_commands(ctx)
-bot = Bot()
-bot.run()
+app = Bot()
+app.run()
