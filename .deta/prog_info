@@ -1,1 +1,1 @@
-{"id":"aac3f0e8-8a43-4f5a-999e-de428cdeb0aa","space":35099,"runtime":"python3.9","name":"twitch","path":"prn9k2","project":"e0aku0ff","account":"144798365827","region":"sa-east-1","deps":null,"envs":null,"public":true,"log_level":"off","cron":""}
+{"id":"aac3f0e8-8a43-4f5a-999e-de428cdeb0aa","space":35099,"runtime":"python3.9","name":"twitch","path":"prn9k2","project":"e0aku0ff","account":"144798365827","region":"sa-east-1","deps":["twitchio==2.4.0"],"envs":null,"public":true,"log_level":"debug","cron":""}
