@@ -1,4 +1,3 @@
-import os
 from twitchio.ext import commands
 
 TOKEN = "oauth:o8gapeamhl62m8h2p1mivx3bshn84k"
