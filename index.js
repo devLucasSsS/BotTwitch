@@ -14,10 +14,6 @@ client.connect();
 client.on("message", (channel, tags, message, self) => {
   if (self) return;
 
-  if (message.toLowerCase() === "!hello") {
-    client.say(channel, `@${tags.username}, heya!`);
-  }
-
   if (message.toLowerCase() === "!afk") {
     client.say(channel, `Mathi will be back in a few minutes.`);
   }
