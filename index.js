@@ -1,30 +1,30 @@
-const tmi = require("tmi.js");
+// const tmi = require("tmi.js");
 
-const client = new tmi.Client({
-  options: { debug: true },
-  identity: {
-    username: "lucassss14",
-    password: "oauth:o8gapeamhl62m8h2p1mivx3bshn84k",
-  },
-  channels: ["Mathi"],
-});
-/*asd*/ 
-client.connect();
+// const client = new tmi.Client({
+//   options: { debug: true },
+//   identity: {
+//     username: "lucassss14",
+//     password: "oauth:o8gapeamhl62m8h2p1mivx3bshn84k",
+//   },
+//   channels: ["Mathi"],
+// });
+// /*asd*/ 
+// client.connect();
 
-client.on("message", (channel, tags, message, self) => {
-  if (self) return;
+// client.on("message", (channel, tags, message, self) => {
+//   if (self) return;
 
-  if (message.toLowerCase() === "!afk") {
-    client.say(channel, `Mathi will be back in a few minutes.`);
-  }
-  if (message.toLowerCase() === "!ping") {
-    client.say(channel, `pong`);
-  }
+//   if (message.toLowerCase() === "!afk") {
+//     client.say(channel, `Mathi will be back in a few minutes.`);
+//   }
+//   if (message.toLowerCase() === "!ping") {
+//     client.say(channel, `pong`);
+//   }
 
-  if (message.toLowerCase() === "!subathon") {
-    client.say(
-      channel,
-      `1 Sub = +1 Min. | 200 Bits = +1 Min. | $3 Tip  = +2 Min | \n\nSub milestones and more info: https://twitter.com/Mathi501/status/1579241459038842881?t=gWlRLEPtvKPmpNzBaOmvqw&s=19`
-    );
-  }
-});
+//   if (message.toLowerCase() === "!subathon") {
+//     client.say(
+//       channel,
+//       `1 Sub = +1 Min. | 200 Bits = +1 Min. | $3 Tip  = +2 Min | \n\nSub milestones and more info: https://twitter.com/Mathi501/status/1579241459038842881?t=gWlRLEPtvKPmpNzBaOmvqw&s=19`
+//     );
+//   }
+// });
