@@ -8,7 +8,7 @@ const client = new tmi.Client({
   },
   channels: ["Mathi"],
 });
-
+/*asd*/ 
 client.connect();
 
 client.on("message", (channel, tags, message, self) => {
@@ -24,7 +24,7 @@ client.on("message", (channel, tags, message, self) => {
   if (message.toLowerCase() === "!subathon") {
     client.say(
       channel,
-      `1 Sub = +1 Min. | 100 Bits = +1 Min. | $3 Tip  = +1 Min | \n\nSub milestones and more info: https://twitter.com/Mathi501/status/1579241459038842881?t=gWlRLEPtvKPmpNzBaOmvqw&s=19`
+      `1 Sub = +1 Min. | 200 Bits = +1 Min. | $3 Tip  = +2 Min | \n\nSub milestones and more info: https://twitter.com/Mathi501/status/1579241459038842881?t=gWlRLEPtvKPmpNzBaOmvqw&s=19`
     );
   }
 });
