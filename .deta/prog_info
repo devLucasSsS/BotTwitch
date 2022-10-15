@@ -1,0 +1,1 @@
+{"id":"054c4041-f3c3-4182-929f-cd3bdbe78414","space":35099,"runtime":"python3.9","name":"BotTwitch","path":"oxgc53","project":"e096bu28","account":"144798365827","region":"sa-east-1","deps":["twitchio==2.4.0"],"envs":null,"public":true,"log_level":"off","cron":""}
